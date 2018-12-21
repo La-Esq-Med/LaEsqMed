@@ -1,0 +1,173 @@
+
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 165px;
+    font-size: 90%;
+    background-color: rgba(0, 30, 70, .7);
+    border: 1px black solid;
+    border-radius: 10px;
+}
+header{
+    padding-top: 5px;
+    padding-bottom: .1px;
+    background: url(../Photos_etc/comida/spag.jpg) no-repeat right center, rgba(0, 0, 50, .7) url(../Photos_etc/comida/pizza.jpg) no-repeat left center;
+    background-size: 200px 142px;
+    border-radius: 5px;
+}
+    
+  
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bolder;
+    color: green;
+    margin-top: 40px;
+    margin-bottom: 55px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(flor.jpeg);
+    margin: 0;
+    padding: 0;
+}
+
+/*site navigation*/
+.nav{
+    margin-top: 2px;
+}
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+.nav li{
+    list-style: none;
+    float: left;
+    margin-right: 0px;
+    margin-left: 75px;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: silver;
+    padding: 1px 50px;
+    border: .5px solid maroon;
+    border-radius: 5px;
+}
+.nav a:hover{
+    background-color: blue;
+}
+/*end site navigation*/
+
+/*overlay target*/
+.container1{
+    width: 1000px;
+    height: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(35, 0, 50, .6);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.photos{
+    height: 300px;
+}
+img{
+    width: 250px;
+    height: 175px;
+    margin-right: 6px;
+    float: right;
+    border: 4px olive solid;
+    border-radius: 5px; 
+}
+#front:hover{
+    transform:scale(1.5,1.5);
+    transform-origin: 0 0;
+}
+#first{
+    width: 185px;
+    height: 260px;
+}
+#first:hover{
+	transform:scale(1.5,1.5);
+	transform-origin:0 0;
+}
+/*overlay*/
+.nota{
+    position: relative;
+}
+.romantico{
+    position: absolute;
+    top:145px;
+    right: 142px;
+    font-size: 90%;
+    color: silver;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 5px;
+}
+/*end overlay*/
+h2{ 
+    margin-top: 0px;
+    margin-bottom: 140px;
+    text-align: center;
+    font-family: cursive;
+    color: silver;
+}
+.footer{
+    height: 100px;
+    margin-top: 60px
+}
+/*footer navs*/
+.logo{
+    display: block;
+    margin-left: 340px;
+    
+}
+
+.logo li{
+    list-style: none;
+    float: left;
+    margin-left: 1px;
+    background-color: black;
+}
+.logo a{
+    display: block;
+    width: 75px;
+    height: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 85%;
+    color: lightgrey;
+    padding: 3px;
+    border: 1px solid green;
+    border-radius: 3px;
+}
+.logo a:hover{
+    background-color: cadetblue;
+}
+/*end footer navs*/
+.me{
+    float: right;
+    color: darkgray;
+    margin-right: 20px;
+    font-family: cursive;
+}
+
+/*rotate code for all browsers*/
+.rotateimg90{
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+     transform: rotate(90deg);
+}
+
+
+        
+
