@@ -1,0 +1,66 @@
+html{
+    
+}
+h1{
+    font-family: cursive;
+}
+body{
+    background-image: url(Signbg1.png);
+}
+header{
+    border: 2px black solid;
+    text-align: center;
+    background: linear-gradient(beige, maroon); 
+    border-radius: 5px;
+    font-size: 90%;
+}
+.container{
+    background-image: url(Photos_etc/Background/Signbg1.png);
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 90%;
+}
+ul li{
+    margin-bottom: 15px;
+}
+p em{
+    font-size: 150%;
+    font-weight: bold;
+}
+p u{
+    font-weight: bold;
+    font-size: 125%;
+}
+
+.entradas{
+    float: left;
+    width: 33%;
+    padding-left: 2px;
+    padding-bottom: 36px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+.pasta{
+    float: left;
+    width: 33%;
+    padding-left: 2px;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding-bottom: 19px;
+}
+.fuerte{
+    float: left;
+    width: 33%;
+    padding-left: 2px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+footer .sig{
+    font-size: 70%;
+    text-align: right;
+    padding-top: 4px;
+}
+footer .carta{
+    text-align: left;
+}
