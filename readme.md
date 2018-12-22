@@ -1,3 +1,3 @@
 #MyRest....
 
-This is my restaurant
+This is our restaurant
