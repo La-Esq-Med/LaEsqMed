@@ -14,7 +14,7 @@
 header{
     padding-top: 5px;
     padding-bottom: .1px;
-    background: url(../Photos_etc/comida/spag.jpg) no-repeat right center, rgba(0, 0, 50, .7) url(../Photos_etc/comida/pizza.jpg) no-repeat left center;
+    background: url(index/spag.jpg) no-repeat right center, rgba(0, 0, 50, .7) url(index/pizza.jpg) no-repeat left center;
     background-size: 200px 142px;
     border-radius: 5px;
 }
