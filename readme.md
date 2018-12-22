@@ -1,3 +1,3 @@
 #MyRest....
 
-This is our restaurant
+Restaurant in Sabaneta, Colombia.
