@@ -59,7 +59,7 @@ body{
     border-radius: 5px;
 }
 .nav a:hover{
-    background-color: blue;
+    background-color: cadetblue;
 }
 /*end site navigation*/
 
@@ -85,7 +85,7 @@ img{
     border-radius: 5px; 
 }
 #front:hover{
-    transform:scale(1.5,1.5);
+    transform:scale(1.0,1.0);
     transform-origin: 0 0;
 }
 #first{
@@ -93,7 +93,7 @@ img{
     height: 260px;
 }
 #first:hover{
-	transform:scale(1.5,1.5);
+	transform:scale(1.0,1.0);
 	transform-origin:0 0;
 }
 /*overlay*/
@@ -159,14 +159,6 @@ h2{
     font-family: cursive;
 }
 
-/*rotate code for all browsers*/
-.rotateimg90{
-    -webkit-transform:rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-     transform: rotate(90deg);
-}
 
 
         
