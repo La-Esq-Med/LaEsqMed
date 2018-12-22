@@ -1,0 +1,72 @@
+*{
+    margin: 0 auto 0 auto;
+    text-align: left;   
+}
+html{
+    
+}
+body{
+    background-color: gainsboro;
+    
+}
+h1{ 
+    padding: 10px;
+    font-family: cursive;
+    background-color: gainsboro;
+}
+
+.container{
+    height: 280px;
+    max-width: 100%;
+    background: linear-gradient(gainsboro, #4755a5);
+    border: 0px solid black;
+    
+}
+.pics img{
+    margin-top: 10px;
+    margin-right: 12px;
+    height: 250px;
+    width: 210px;
+    border: 2px solid darkolivegreen;
+    border-radius: 5px;
+}
+.ham{
+    float: right;
+    position: relative;
+    
+}
+.burger{
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    font-size: 80%;
+    color: silver;
+    border: .5px solid black;
+    border-radius: 3px;
+    padding: 0px 5px;
+    font-family: cursive;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, .5);   
+}
+.container2{
+    max-width: 100%;
+    height: 350px;
+    background: linear-gradient(#4755a5,gainsboro);
+}
+
+footer{
+    width: auto;
+    height: 60px;
+}
+footer p{
+    float: right;
+    margin-right: 10px;
+    margin-top: 30px;
+    font-size: 80%;
+    font-family: cursive;
+}
+#regresar{
+    margin-left: 10px;
+}
+
+  
